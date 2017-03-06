@@ -1,0 +1,78 @@
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Bot Application1.dll.config
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Bot Application1.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Bot Application1.pdb
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Autofac.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Chronic.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.Bot.Builder.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.Bot.Connector.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Newtonsoft.Json.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.Net.Http.Formatting.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.Web.Http.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.Web.Http.WebHost.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Autofac.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.Bot.Builder.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.Bot.Connector.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\Newtonsoft.Json.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.Net.Http.Formatting.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.Web.Http.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\System.Web.Http.WebHost.xml
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\obj\Debug\BotApp.csprojResolveAssemblyReference.cache
+C:\Projects\ZHEN\Bots\BotApp\BotApp\obj\Debug\Bot Application1.dll
+C:\Projects\ZHEN\Bots\BotApp\BotApp\obj\Debug\Bot Application1.pdb
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Bot Application1.dll.config
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Bot Application1.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Bot Application1.pdb
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Autofac.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Chronic.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.Bot.Builder.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.Bot.Connector.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Newtonsoft.Json.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.Net.Http.Formatting.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.Web.Http.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.Web.Http.WebHost.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Autofac.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.Bot.Builder.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.Bot.Connector.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\Newtonsoft.Json.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.Net.Http.Formatting.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.Web.Http.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\System.Web.Http.WebHost.xml
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\obj\Debug\BotApp.csprojResolveAssemblyReference.cache
+C:\Projects\ZHEN\WallEBot\src\BotApp\obj\Debug\Bot Application1.dll
+C:\Projects\ZHEN\WallEBot\src\BotApp\obj\Debug\Bot Application1.pdb

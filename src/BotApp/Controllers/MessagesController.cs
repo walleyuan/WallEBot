@@ -1,15 +1,17 @@
 ﻿using System;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using System.Web.Http.Description;
+
 using Microsoft.Bot.Connector;
 using Newtonsoft.Json;
 
 namespace BotApp
 {
+    using System.Configuration;
+    using Models;
+
     [BotAuthentication]
     public class MessagesController : ApiController
     {
@@ -25,8 +27,12 @@ namespace BotApp
                 // calculate something for us to return
                 int length = (activity.Text ?? string.Empty).Length;
 
+
+                CustomLuisModel luisResponse = await GetEntityFromLUIS(activity.Text);
+
                 // return our reply to the user
-                Activity reply = activity.CreateReply($"You sent {activity.Text} which was {length} characters");
+                Activity reply = activity.CreateReply($"keyword is {luisResponse.entities[0].entity}");
+
                 await connector.Conversations.ReplyToActivityAsync(reply);
             }
             else
@@ -64,6 +70,28 @@ namespace BotApp
             }
 
             return null;
+        }
+
+
+        private static async Task<CustomLuisModel> GetEntityFromLUIS(string Query)
+        {
+            Query = Uri.EscapeDataString(Query);
+            CustomLuisModel Data = new CustomLuisModel();
+            using (HttpClient client = new HttpClient())
+            {
+                var appSettings = ConfigurationManager.AppSettings;
+                string requestUri = appSettings["LuisAPI"] ?? "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/dfbb93a0-5369-4477-965f-0d57aa373771?subscription-key=029649524cea4917b39956be2648890c&verbose=true&q=";
+                 requestUri = requestUri + Query;
+
+                HttpResponseMessage msg = await client.GetAsync(requestUri);
+
+                if (msg.IsSuccessStatusCode)
+                {
+                    var jsonDataResponse = await msg.Content.ReadAsStringAsync();
+                    Data = JsonConvert.DeserializeObject<CustomLuisModel>(jsonDataResponse);
+                }
+            }
+            return Data;
         }
     }
 }

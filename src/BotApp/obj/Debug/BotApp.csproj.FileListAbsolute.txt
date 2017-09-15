@@ -93,12 +93,9 @@ C:\Projects\ChatBots\src\BotApp\bin\System.Web.Http.WebHost.dll
 C:\Projects\ChatBots\src\BotApp\bin\Autofac.xml
 C:\Projects\ChatBots\src\BotApp\bin\Microsoft.Bot.Builder.xml
 C:\Projects\ChatBots\src\BotApp\bin\Microsoft.Bot.Connector.xml
-C:\Projects\ChatBots\src\BotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
 C:\Projects\ChatBots\src\BotApp\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
-C:\Projects\ChatBots\src\BotApp\bin\Microsoft.Rest.ClientRuntime.xml
 C:\Projects\ChatBots\src\BotApp\bin\Microsoft.WindowsAzure.Configuration.xml
 C:\Projects\ChatBots\src\BotApp\bin\Newtonsoft.Json.xml
-C:\Projects\ChatBots\src\BotApp\bin\System.IdentityModel.Tokens.Jwt.pdb
 C:\Projects\ChatBots\src\BotApp\bin\System.IdentityModel.Tokens.Jwt.xml
 C:\Projects\ChatBots\src\BotApp\bin\System.Net.Http.Formatting.xml
 C:\Projects\ChatBots\src\BotApp\bin\System.Web.Http.xml
@@ -114,3 +111,10 @@ C:\Projects\ChatBots\src\BotApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
 C:\Projects\ChatBots\src\BotApp\obj\Debug\Bot Application1.dll
 C:\Projects\ChatBots\src\BotApp\obj\Debug\Bot Application1.pdb
 C:\Projects\ChatBots\src\BotApp\obj\Debug\BotApp.csprojResolveAssemblyReference.cache
+C:\Projects\ChatBots\src\BotApp\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Projects\ChatBots\src\BotApp\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Projects\ChatBots\src\BotApp\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ChatBots\src\BotApp\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ChatBots\src\BotApp\bin\it\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ChatBots\src\BotApp\bin\nl\Microsoft.Bot.Builder.resources.dll
+C:\Projects\ChatBots\src\BotApp\bin\pt-BR\Microsoft.Bot.Builder.resources.dll

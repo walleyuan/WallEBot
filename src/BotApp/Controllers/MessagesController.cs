@@ -28,28 +28,34 @@ namespace BotApp
                 int length = (activity.Text ?? string.Empty).Length;
 
 				// AI text cognitive 
-				//CustomLuisModel luisResponse = await GetEntityFromLUIS(activity.Text);
+				CustomLuisModel luisResponse = await GetEntityFromLUIS(activity.Text);
 
-				// return our reply to the user
-				//Activity reply = activity.CreateReply($"keyword is {luisResponse.entities[0].entity}");
+				var intention = luisResponse.intents[0].Intent;
 
+
+				//TODO: pass intention to Sitecore and get response from Sitecore
 				var responseTxt = "";
+				
+				switch (intention) {
+					case "Asking Name":
+						responseTxt = "Zhen YUAN";
+						break;
+					case "Asking Location":
+						responseTxt = "Sydney";
+						break;
+					case "Asking contacts":
+						responseTxt = "+67 02 01223456";
+						break;
 
-				switch (activity.Text.ToLower())
-				{
-					case "hi":
-						responseTxt = "hi, what can i do for you?";
-						break;
-					case "what's your name":
-						responseTxt = "my name is switchitbot, what can I do for you";
-						break;
 					default:
-						responseTxt = "sorry, i don't understand.";
+						responseTxt = "Sorry, I don't know yet, but I will learn";
 						break;
 				}
 
-				Activity reply = activity.CreateReply($"{responseTxt}");
 
+				// return our reply to the user
+				Activity reply = activity.CreateReply($"{responseTxt}");
+							
 				try
 				{
 					await connector.Conversations.ReplyToActivityAsync(reply);

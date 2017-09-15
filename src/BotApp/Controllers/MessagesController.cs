@@ -27,19 +27,47 @@ namespace BotApp
                 // calculate something for us to return
                 int length = (activity.Text ?? string.Empty).Length;
 
+				// AI text cognitive 
+				//CustomLuisModel luisResponse = await GetEntityFromLUIS(activity.Text);
 
-                CustomLuisModel luisResponse = await GetEntityFromLUIS(activity.Text);
+				// return our reply to the user
+				//Activity reply = activity.CreateReply($"keyword is {luisResponse.entities[0].entity}");
 
-                // return our reply to the user
-                Activity reply = activity.CreateReply($"keyword is {luisResponse.entities[0].entity}");
+				var responseTxt = "";
 
-                await connector.Conversations.ReplyToActivityAsync(reply);
+				switch (activity.Text.ToLower())
+				{
+					case "hi":
+						responseTxt = "hi, what can i do for you?";
+						break;
+					case "what's your name":
+						responseTxt = "my name is switchitbot, what can I do for you";
+						break;
+					default:
+						responseTxt = "sorry, i don't understand.";
+						break;
+				}
+
+				Activity reply = activity.CreateReply($"{responseTxt}");
+
+				try
+				{
+					await connector.Conversations.ReplyToActivityAsync(reply);
+				}
+				catch (Exception ex)
+				{
+
+					throw;
+				}
+				
             }
             else
             {
                 HandleSystemMessage(activity);
             }
+
             var response = Request.CreateResponse(HttpStatusCode.OK);
+
             return response;
         }
 
